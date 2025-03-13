@@ -13,6 +13,7 @@
     border-radius: 50%;
     user-select: none;
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Assurer que les flèches sont au-dessus des images */
 }
 
 .arrow.left {
