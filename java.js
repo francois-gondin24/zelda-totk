@@ -21,6 +21,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const offset = (carrouselContainer.offsetWidth / 2) - (imageWidth / 2) - (index * imageWidth);
 
         carrousel.style.transform = `translateX(${offset}px)`;
+
+        // Gérer la visibilité des flèches
+        prevButton.style.display = index === 0 ? 'none' : 'block';
+        nextButton.style.display = index === images.length - 1 ? 'none' : 'block';
     }
 
     prevButton.addEventListener("click", () => {
