@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const prevButton = document.querySelector(".left");
     const nextButton = document.querySelector(".right");
 
-    let index = Math.floor(images.length / 2); // Commence avec l'image centrale
+    let index = 0; // Commence avec la première image
 
     function updateCarrousel() {
         images.forEach((img, i) => {
