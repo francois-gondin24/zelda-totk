@@ -106,3 +106,7 @@ footer {
     position: relative;
     top: -20px;
 }
+.img{
+    border-radius: 15px;
+    box-shadow: 0 0 20px 10px #2c702aa9;
+}
