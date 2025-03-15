@@ -31,7 +31,7 @@
 .carrousel-container {
     position: relative;
     width: 100%;
-    max-width: 1200px; /* Augmenter la largeur maximale du conteneur */
+    max-width: 1200px; 
     margin: 0 auto;
     overflow: hidden;
 }
@@ -44,9 +44,6 @@
 .carrousel img {
     width: 100%;
     height: auto;
-    min-width: 300px; /* Ajout de la largeur minimale */
-    min-height: 200px; /* Ajout de la hauteur minimale */
-    max-height: 800px; /* Augmenter la hauteur maximale des images */
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
