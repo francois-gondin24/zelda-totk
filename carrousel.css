@@ -42,9 +42,11 @@
 }
 
 .carrousel img {
-    width: auto; /* Garder la largeur originale */
-    height: auto; /* Garder la hauteur originale */
+    width: 100%;
+    height: auto;
+    min-width: 300px; /* Ajout de la largeur minimale */
+    min-height: 200px; /* Ajout de la hauteur minimale */
     max-height: 800px; /* Augmenter la hauteur maximale des images */
-    object-fit: contain; /* Voir l'image entière sans rognage */
+    object-fit: cover;
     object-position: center;
 }
