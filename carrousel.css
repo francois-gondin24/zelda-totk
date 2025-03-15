@@ -43,7 +43,7 @@
 
 .carrousel img {
     width: 100%;
-    max-width: 100%;
+    height: auto;
     max-height: 600px; /* Augmenter la hauteur maximale des images */
     object-fit: cover;
     object-position: center;
