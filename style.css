@@ -99,6 +99,102 @@ footer{
 }
 .button-container {
     display: flex;
+    justify-content: center; /* Centrer les boutons */
+    gap: 10px; /* Espace fixe entre les boutons */
+    margin: 5px 0;
+}
+
+.button-container a {
+    text-decoration: none;
+}
+
+.button-container button {
+    font-size: 150%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5); /* Même fond que le body */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin: 0; /* Supprime le margin pour éviter l'espacement vertical */
+}
+
+.button-container button:hover {
+    background-color: rgba(18, 66, 26, 0.5);
+}');
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+    }
+
+.title{
+    font-family: "hylia";
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 204, 170);
+    text-shadow: 2px 2px 4px #000000;
+}
+.details{
+    font-family:"diside";
+    font-size: 30px;
+    color: white;
+}
+.img{
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px black;
+}
+.vid{
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px black;
+}
+.list{
+    font-family: "diside";
+    font-size: 30px;
+    color: white;
+}
+.img2{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+footer{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 50px auto;
+}
+.button-container {
+    display: flex;
     justify-content: space-around;
     margin: 5px 0;
 }
