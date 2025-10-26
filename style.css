@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "hylia";
+    src: url(fonts/hylia-fonts.otf);
+    }
+    @font-face {
+    font-family: "diside";
+    src: url(fonts/Diside.otf);
+    }
+    @font-face {
+    font-family: "enthusiastic";
+    src: url(fonts/Enthusiastic.ttf);
+    }
+    @font-face {
+    font-family: "diplomatic";
+    src: url(fonts/The\ Diplomat\ Signature\ Regular.otf);
+    }
+    @font-face {
+    font-family: "botw";
+    src: url(fonts/The\ Wild\ Breath\ of\ Zelda.otf);
+    }
+    @font-face {
+    font-family: "gothic";
+    src: url(fonts/vhs-gothic.ttf);
+ }
+body {
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-image: url('OIP.jpg');
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+    }
+
+.title{
+    font-family: "hylia";
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 204, 170);
+    text-shadow: 2px 2px 4px #000000;
+}
+.details{
+    font-size: 20px;
+    color: white;
+}
+.img{
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px black;
+}
+.vid{
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px black;
+}
+.list{
+    font-size: 30px;
+    color: white;
+}
+.img2{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+footer{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 50px auto;
+}
+button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none; /* Remove text decoration */
+    font-size: 18px; /* Increase font size for better visibility */
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    display: flex; /* Use flexbox for better alignment */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    box-sizing: border-box; /* Ensure padding and border are included in width/height */
+    position: relative;
+}
+
+.container-buttons {
+    text-align: center; /* Center the buttons container */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px; /* Add space between buttons */
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgba(5, 16, 66, 0.5);
+}
