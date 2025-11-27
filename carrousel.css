@@ -66,4 +66,6 @@
     z-index: 1;
     margin: 30px 5px; /* Met l'image centrale au premier plan */
 }
+.button{
+    texte-decoration: none;
 
