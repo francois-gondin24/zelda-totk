@@ -140,7 +140,7 @@ input:checked + .slider:before {
     margin-bottom: 20px;
     flex-wrap: wrap;
 }
-#firstPart, #secondPart, #thirdPart, #fourthPart, #lastPart {
+#firstPart, #secondPart, #thirdPart, #lastPart {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
 }
